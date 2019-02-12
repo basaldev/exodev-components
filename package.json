@@ -4,7 +4,9 @@
   "description": "ExO Devhub UI Components",
   "main": "index.js",
   "dependencies": {
-    "grommet": "^2.3.1"
+    "@types/react-helmet": "^5.0.8",
+    "grommet": "^2.3.1",
+    "react-helmet": "^5.2.0"
   },
   "peerDependencies": {
     "react": ">= 16.7.0",
