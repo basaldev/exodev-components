@@ -136,4 +136,4 @@ const SEO = ({ postNode, postPath, postSEO, config }: Props) => {
   );
 };
 
-export default SEO;
+export SEO;
