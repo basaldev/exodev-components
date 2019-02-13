@@ -2,7 +2,7 @@
   "name": "devhub-components",
   "version": "0.0.1",
   "description": "ExO Devhub UI Components",
-  "main": "index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "@types/react-helmet": "^5.0.8",
     "grommet": "^2.3.1",
