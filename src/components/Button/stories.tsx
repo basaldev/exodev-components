@@ -8,8 +8,3 @@ stories.add(
   'default',
   () => <Button label="default" />
 );
-
-stories.add(
-  'primary',
-  () => <Button label="primary" />
-);
