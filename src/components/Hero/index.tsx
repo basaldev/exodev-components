@@ -6,28 +6,29 @@ import { Box, Heading, Paragraph } from 'grommet';
 interface IProps {
   heading: string;
   text: string;
-  background?: string | { color: string, image: string };
+  background?: string | { color: string; image: string };
   children?: any;
 }
 
 /**
  * Hero description
  */
-const Hero: React.SFC<IProps> = (props: IProps) =>
+const Hero: React.SFC<IProps> = (props: IProps) => (
   // TODO: Add responsive with styled
   <Box
     as="section"
     background={props.background || 'light-1'}
     direction="column"
-    pad={{ horizontal: "xlarge" }}
+    pad={{ horizontal: 'xlarge' }}
     height="100vh"
     justify="center"
-    >
+  >
     <Box alignSelf="start">
-    <Heading margin="none">{props.heading}</Heading>
-    <Paragraph >{props.text}</Paragraph>
-    {props.children}
+      <Heading margin="none">{props.heading}</Heading>
+      <Paragraph>{props.text}</Paragraph>
+      {props.children}
     </Box>
-  </Box>;
+  </Box>
+);
 
 export default Hero;

@@ -15,6 +15,12 @@ npm ci
 npm run storybook
 ```
 
+## Lint
+
+```
+npm run lint
+```
+
 ## Build
 
 ```

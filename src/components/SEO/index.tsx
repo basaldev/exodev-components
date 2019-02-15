@@ -6,12 +6,12 @@ import Helmet from 'react-helmet';
 interface Props {
   postNode: {
     frontmatter: {
-      title: string
-      date: string
-      banner: string
+      title: string;
+      date: string;
+      banner: string;
       author: string;
-    }
-    excerpt: string
+    };
+    excerpt: string;
   };
   postPath: string;
   postSEO: boolean;
@@ -24,7 +24,7 @@ interface Props {
       description: string;
       banner: string;
       language: string;
-    }
+    };
     intergrations: any;
     social: any;
   };
@@ -53,17 +53,17 @@ const SEO = ({ postNode, postPath, postSEO, config }: Props) => {
         '@context': 'http://schema.org',
         '@type': 'BlogPosting',
         '@id': postURL,
-        'url': postURL,
-        'name': title,
-        'headline': title,
-        'image': {
+        "url": postURL,
+        "name": title,
+        "headline": title,
+        "image": {
           '@type': 'ImageObject',
-          'url': image,
+          "url": image,
         },
-        'description': description,
-        'datePublished': postNode.frontmatter.date,
-        'dateModified': postNode.frontmatter.date,
-        'author': {
+        "description": description,
+        "datePublished": postNode.frontmatter.date,
+        "dateModified": postNode.frontmatter.date,
+        "author": {
           '@type': 'Person',
           "name": postNode.frontmatter.author,
         },
@@ -88,24 +88,22 @@ const SEO = ({ postNode, postPath, postSEO, config }: Props) => {
         '@context': 'http://schema.org',
         '@type': 'WebSite',
         '@id': config.siteUrl,
-        'url': config.siteUrl,
-        'name': title,
-        'image': {
+        "url": config.siteUrl,
+        "name": title,
+        "image": {
           '@type': 'ImageObject',
-          'url': config.meta.banner,
+          "url": config.meta.banner,
         },
       },
     ];
   }
-  const FacebookId = (<meta
-    property="fb:app_id"
-    content={config.intergrations.facebookId}
-  />);
-  const TwitterCreator = config.social.twitter ? (<meta
-    name="twitter:creator"
-    content={config.social.twitter}
-  />) : null;
-  const OgType = postSEO ? (<meta property="og:type" content="article" />) : null;
+  const FacebookId = (
+    <meta property="fb:app_id" content={config.intergrations.facebookId} />
+  );
+  const TwitterCreator = config.social.twitter ? (
+    <meta name="twitter:creator" content={config.social.twitter} />
+  ) : null;
+  const OgType = postSEO ? <meta property="og:type" content="article" /> : null;
   return (
     <Helmet>
       <html lang={config.meta.language} />
@@ -116,10 +114,7 @@ const SEO = ({ postNode, postPath, postSEO, config }: Props) => {
         {JSON.stringify(schemaOrgJSONLD)}
       </script>
       <meta property="og:locale" content={config.meta.language} />
-      <meta
-        property="og:site_name"
-        content={config.meta.title}
-      />
+      <meta property="og:site_name" content={config.meta.title} />
       <meta property="og:url" content={postSEO ? postURL : config.siteUrl} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
