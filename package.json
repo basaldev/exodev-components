@@ -43,7 +43,9 @@
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "start": "npm run storybook",
-    "build": "rm -rf dist && tsc",
+    "lint": "tslint -c tslint.json src/**/*.{ts,tsx}",
+    "clean": "rm -rf dist",
+    "build": "npm run lint && npm run clean && tsc",
     "test": "jest"
   },
   "repository": {
@@ -62,9 +64,9 @@
     }
   },
   "lint-staged": {
-    "*.{ts|tsx}": [
-      "prettier --fix",
-      "tslink --fix",
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "tslint --fix",
       "git add"
     ]
   }
