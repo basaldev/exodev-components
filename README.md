@@ -9,10 +9,10 @@ npm ci
 
 ## Development
 
-### Open storybook
+### Start dev with storybook
 
 ```
-npm run storybook
+npm start
 ```
 
 ## Lint
@@ -20,6 +20,20 @@ npm run storybook
 ```
 npm run lint
 ```
+
+## Test
+
+```
+npm test
+```
+
+A test by [Jest with ts-jest](https://basarat.gitbooks.io/typescript/docs/testing/jest.html)
+
+```
+npm test watch
+```
+
+For live test
 
 ## Build
 

@@ -1,11 +1,12 @@
 module.exports = {
   "roots": [
-    "<rootDir>/src"
+    "<rootDir>/.storybook",
+    "<rootDir>/src",
   ],
   "transform": {
     "^.+\\.tsx?$": "ts-jest"
   },
-  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+  "testRegex": "/__tests__/.*(test|spec)\\.tsx?$",
   "moduleFileExtensions": [
     "ts",
     "tsx",
@@ -14,4 +15,5 @@ module.exports = {
     "json",
     "node"
   ],
+  "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.ts"
 };
