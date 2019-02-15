@@ -3,13 +3,15 @@ React UI Components for DevHub
 
 ## Get started
 
+Install npm packages
+
 ```
 npm ci
 ```
 
 ## Development
 
-### Start dev with storybook
+Start dev with storybook
 
 ```
 npm start
@@ -23,17 +25,23 @@ npm run lint
 
 ## Test
 
+A test by [Jest with ts-jest](https://basarat.gitbooks.io/typescript/docs/testing/jest.html)
+
 ```
 npm test
 ```
 
-A test by [Jest with ts-jest](https://basarat.gitbooks.io/typescript/docs/testing/jest.html)
-
-```
-npm test watch
-```
-
 For live test
+
+```
+npm run test:watch
+```
+
+Output test coverage report
+
+```
+npm run test:coverage
+```
 
 ## Build
 
