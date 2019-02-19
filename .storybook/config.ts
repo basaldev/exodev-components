@@ -1,6 +1,7 @@
 import { addDecorator, configure } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
 import { withOptions } from '@storybook/addon-options';
+import { themeDecorator } from '../src/components/Theme';
 
 if (process.env.NODE_ENV === 'test') {
   // tslint:disable-next-line
@@ -23,5 +24,7 @@ addDecorator(
     name: 'Devhub Components',
   }),
 );
+
+addDecorator(themeDecorator);
 
 configure(loadStories, module);
