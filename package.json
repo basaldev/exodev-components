@@ -52,6 +52,7 @@
     "clean": "rm -rf dist",
     "build": "npm run lint && npm run clean && tsc",
     "test": "jest",
+    "test:update": "jest -u",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage --colors"
   },
@@ -67,7 +68,8 @@
   "homepage": "https://github.com/exodevhub/devhub-components#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "pre-push": "npm test"
     }
   },
   "lint-staged": {

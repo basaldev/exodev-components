@@ -31,6 +31,12 @@ A test by [Jest with ts-jest](https://basarat.gitbooks.io/typescript/docs/testin
 npm test
 ```
 
+For updating snapshot test
+
+```
+npm run test:update
+```
+
 For live test
 
 ```
