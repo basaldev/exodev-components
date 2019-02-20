@@ -27,6 +27,10 @@ module.exports = async (baseConfig, env, config) => ({
       '.ts',
       '.tsx'
     ],
+    modules: [
+      'node_modules',
+      path.resolve(__dirname, '../src')
+    ],
     alias: {
       ...config.resolve.alias,
       '@emotion/core': require.resolve('styled-components'),

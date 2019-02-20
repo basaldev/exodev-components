@@ -9,3 +9,5 @@ interface IProps {
 export const Theme: React.SFC<IProps> = ({ children }) => (
   <Grommet theme={exoTheme}>{children}</Grommet>
 );
+
+export const themeDecorator = (storyFn) => <Theme>{storyFn()}</Theme>;
