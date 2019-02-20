@@ -15,7 +15,8 @@ export const getButtonTheme = ({ colors }) => ({
     horizontal: '25px',
   },
   extend: css`
-    color: ${(props: any) => colors[props.colorValue] || colors.dark[0]}
+    color: ${(props: any) =>
+      colors[props.colorValue] || props.colorValue || colors.dark[0]};
     font-weight: bold;
   `,
 });
