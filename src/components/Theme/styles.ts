@@ -1,4 +1,4 @@
-import { getButtonTheme } from 'components/Button/styles';
+import { getButtonTheme } from '../Button/styles';
 
 const colors = {
   dark: ['#333333', '#555555', '#777777', '#999999', '#999999', '#999999'],
