@@ -6,17 +6,17 @@ import {
 
 export interface IProps {
   label: string;
-  fill?: boolean;
-  alignSelf?: string;
+  color?: string;
+  onClick?: (event: any) => void;
 }
 
-type NewButton = ButtonProps & JSX.IntrinsicElements['button'] & IProps;
+type Props = ButtonProps & JSX.IntrinsicElements['button'] & IProps;
 
 /**
  * Button description
  * https://v2.grommet.io/button
  */
-const Button: React.SFC<NewButton> = (props: NewButton) => {
+const Button: React.SFC<Props> = (props: Props) => {
   return <GrommetButton {...props} />;
 };
 
