@@ -638,7 +638,6 @@ exports[`Storyshots Atoms/CheckBox default 1`] = `
             className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 hgscuN"
             onBlur={[Function]}
             onChange={[Function]}
-            onClick={[Function]}
             onFocus={[Function]}
             type="checkbox"
           />
@@ -738,32 +737,6 @@ exports[`Storyshots Atoms/CheckBox default 1`] = `
                           }
                         >
                           false
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                  <span>
-                     
-                    <span
-                      style={Object {}}
-                    >
-                      onClick
-                    </span>
-                    <span>
-                      =
-                      <span
-                        style={Object {}}
-                      >
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#170",
-                            }
-                          }
-                        >
-                          click
                         </span>
                         }
                       </span>
@@ -945,7 +918,6 @@ exports[`Storyshots Atoms/CheckBox with label 1`] = `
             className="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 hgscuN"
             onBlur={[Function]}
             onChange={[Function]}
-            onClick={[Function]}
             onFocus={[Function]}
             type="checkbox"
           />
@@ -1028,39 +1000,7 @@ exports[`Storyshots Atoms/CheckBox with label 1`] = `
                 </span>
                 <span>
                   <span>
-                    <span>
-                      <br />
-                        
-                    </span>
-                    <span
-                      style={Object {}}
-                    >
-                      checked
-                    </span>
-                    <span>
-                      =
-                      <span
-                        style={Object {}}
-                      >
-                        {
-                        <span
-                          style={
-                            Object {
-                              "color": "#a11",
-                            }
-                          }
-                        >
-                          false
-                        </span>
-                        }
-                      </span>
-                    </span>
-                  </span>
-                  <span>
-                    <span>
-                      <br />
-                        
-                    </span>
+                     
                     <span
                       style={Object {}}
                     >
@@ -1087,14 +1027,11 @@ exports[`Storyshots Atoms/CheckBox with label 1`] = `
                     </span>
                   </span>
                   <span>
-                    <span>
-                      <br />
-                        
-                    </span>
+                     
                     <span
                       style={Object {}}
                     >
-                      onClick
+                      checked
                     </span>
                     <span>
                       =
@@ -1105,21 +1042,18 @@ exports[`Storyshots Atoms/CheckBox with label 1`] = `
                         <span
                           style={
                             Object {
-                              "color": "#170",
+                              "color": "#a11",
                             }
                           }
                         >
-                          click
+                          false
                         </span>
                         }
                       </span>
                     </span>
                   </span>
                   <span>
-                    <span>
-                      <br />
-                        
-                    </span>
+                     
                     <span
                       style={Object {}}
                     >
@@ -1143,7 +1077,7 @@ exports[`Storyshots Atoms/CheckBox with label 1`] = `
                         }
                       </span>
                     </span>
-                    <br />
+                     
                   </span>
                 </span>
                 <span
