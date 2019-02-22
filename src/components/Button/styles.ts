@@ -6,7 +6,6 @@ import { css } from 'styled-components';
  */
 export const getButtonTheme = ({ colors }) => ({
   border: {
-    color: { light: colors.dark[0] },
     radius: '30px',
   },
   minWidth: '190px',

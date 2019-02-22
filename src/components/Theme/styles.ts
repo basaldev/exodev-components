@@ -35,7 +35,8 @@ const variables = { colors, text };
 export const exoTheme = {
   global: {
     colors: {
-      background: colors.white,
+      brand: colors.dark[0],
+      focus: colors.light[4],
     },
     font: {
       family:

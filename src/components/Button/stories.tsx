@@ -2,13 +2,14 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text } from '@storybook/addon-knobs';
+import { withBackgrounds } from '@storybook/addon-backgrounds';
 import Button from './index';
 
 const stories = storiesOf('Atoms/Button', module);
 
-const bgDecorator = (storyFn) => (
-  <div style={{ background: '#eee', padding: '20px' }}>{storyFn()}</div>
-);
+const bgDecorator = withBackgrounds([
+  { name: 'twitter', value: '#999', default: true },
+]);
 
 stories.add('default', () => {
   const label = text('label', 'button');
