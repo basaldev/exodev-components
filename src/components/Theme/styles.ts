@@ -1,4 +1,5 @@
 import { getButtonTheme } from '../Button/styles';
+import { getCheckBoxTheme } from '../CheckBox/styles';
 
 const colors = {
   dark: ['#333333', '#555555', '#777777', '#999999', '#999999', '#999999'],
@@ -45,4 +46,5 @@ export const exoTheme = {
   },
   text,
   button: getButtonTheme(variables),
+  checkBox: getCheckBoxTheme(variables),
 };
