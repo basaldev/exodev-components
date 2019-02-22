@@ -8,7 +8,7 @@ import Button from './index';
 const stories = storiesOf('Atoms/Button', module);
 
 const bgDecorator = withBackgrounds([
-  { name: 'twitter', value: '#999', default: true },
+  { name: 'default', value: '#999', default: true },
 ]);
 
 stories.add('default', () => {

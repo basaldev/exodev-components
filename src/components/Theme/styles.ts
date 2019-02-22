@@ -1,11 +1,13 @@
 import { getButtonTheme } from '../Button/styles';
 import { getCheckBoxTheme } from '../CheckBox/styles';
+import { getTextInputTheme } from '../TextInput/styles';
 
 const colors = {
   dark: ['#333333', '#555555', '#777777', '#999999', '#999999', '#999999'],
   light: ['#F8F8F8', '#F2F2F2', '#EDEDED', '#DADADA', '#DADADA', '#DADADA'],
   white: '#FFFFFF',
   black: '#000000',
+  transparent: 'transparent',
   status: {
     critical: '#FF4040',
     error: '#FF4040',
@@ -47,4 +49,5 @@ export const exoTheme = {
   text,
   button: getButtonTheme(variables),
   checkBox: getCheckBoxTheme(variables),
+  textInput: getTextInputTheme(variables),
 };
