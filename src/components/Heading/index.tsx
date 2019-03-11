@@ -1,20 +1,21 @@
 import * as React from 'react';
 import {
-  Button as GrommetButton,
-  ButtonProps,
-} from 'grommet/components/Button';
+  Heading as GrommetHeading,
+  HeadingProps,
+} from 'grommet/components/Heading';
+
+export interface IProps {
+  children: string;
+}
+
+type Props = HeadingProps & JSX.IntrinsicElements['div'] & IProps;
 
 /**
- * Button description
+ * Heading description
+ * https://v2.grommet.io/heading
  */
-type ExtraButton = any;
-type NewButton = ButtonProps & JSX.IntrinsicElements['button'] & ExtraButton;
-
-/**
- * Button description
- */
-const Button: React.SFC<NewButton> = (props: NewButton) => {
-  return <GrommetButton {...props} />;
+const Heading: React.SFC<Props> = (props: Props) => {
+  return <GrommetHeading {...props} />;
 };
 
-export default Button;
+export default Heading;

@@ -1,6 +1,8 @@
 import { getButtonTheme } from '../Button/styles';
 import { getCheckBoxTheme } from '../CheckBox/styles';
 import { getTextInputTheme } from '../TextInput/styles';
+import { getHeadingTheme } from '../Heading/styles';
+import { getParagraphTheme } from '../Paragraph/styles';
 
 const colors = {
   dark: ['#333333', '#555555', '#777777', '#999999', '#999999', '#999999'],
@@ -19,14 +21,14 @@ const colors = {
 };
 
 const text = {
-  xxsmall: { size: '10px', height: '1.2', maxWidth: '100px' },
-  xsmall: { size: '12px', height: '1.3', maxWidth: '200px' },
-  small: { size: '14px', height: '1.5', maxWidth: '300px' },
-  medium: { size: '16px', height: '1.5', maxWidth: '400px' },
-  large: { size: '18px', height: '1.5', maxWidth: '400px' },
-  xlarge: { size: '20px', height: '1.5', maxWidth: '400px' },
-  xxlarge: { size: '22px', height: '1.5', maxWidth: '400px' },
-  xxxlarge: { size: '24px', height: '1.5', maxWidth: '400px' },
+  xxsmall: { size: '10px', height: '1.3', maxWidth: 'none' },
+  xsmall: { size: '12px', height: '1.3', maxWidth: 'none' },
+  small: { size: '14px', height: '1.3', maxWidth: 'none' },
+  medium: { size: '16px', height: '1.5', maxWidth: 'none' },
+  large: { size: '18px', height: '1.5', maxWidth: 'none' },
+  xlarge: { size: '20px', height: '1.5', maxWidth: 'none' },
+  xxlarge: { size: '22px', height: '1.5', maxWidth: 'none' },
+  xxxlarge: { size: '24px', height: '1.5', maxWidth: 'none' },
 };
 
 const variables = { colors, text };
@@ -50,4 +52,6 @@ export const exoTheme = {
   button: getButtonTheme(variables),
   checkBox: getCheckBoxTheme(variables),
   textInput: getTextInputTheme(variables),
+  heading: getHeadingTheme(variables),
+  paragraph: getParagraphTheme(variables),
 };
