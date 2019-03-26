@@ -14,7 +14,6 @@ const styles = createStyles({
     border: 0,
     borderRadius: 0,
     color: 'white',
-    margin: '0 0 50px',
     padding: '28px 0 26px',
     width: 277,
   },

@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { Card } from '@material-ui/core';
+import { Card, Grid } from '@material-ui/core';
 
 import EXTButton from '../EXTButton';
 import EXTCardHeadline from '../EXTCardHeadline';
@@ -27,17 +27,46 @@ const EXTSectionCard: FunctionComponent<IProps> = (props: IProps) => {
     imageWidth,
     subtitle,
   } = props;
+
   return (
-    <Card>
-      <EXTCardHeadline size="large" text={headline} />
-      <EXTCardSubtitle size="large" text={subtitle} />
-      <EXTButton label={buttonText} />
-      <EXTCardImage
-        title={imageTitle}
-        url={imageSourceUrl}
-        width={imageWidth}
-      />
-    </Card>
+    <div style={{ padding: 50 }}>
+      <Card raised style={{ padding: 24 }}>
+        <Grid
+          container
+          direction="row"
+          justify="space-between"
+          alignItems="flex-start"
+          spacing={40}
+        >
+          <Grid item md={6}>
+            <Grid
+              container
+              direction="column"
+              justify="space-between"
+              alignItems="flex-start"
+              spacing={40}
+            >
+              <Grid item>
+                <EXTCardHeadline size="large" text={headline} />
+              </Grid>
+              <Grid item>
+                <EXTCardSubtitle size="large" text={subtitle} />
+              </Grid>
+              <Grid item alignContent="flex-end">
+                <EXTButton label={buttonText} />
+              </Grid>
+            </Grid>
+          </Grid>
+          <Grid item md={6}>
+            <EXTCardImage
+              title={imageTitle}
+              url={imageSourceUrl}
+              width={imageWidth}
+            />
+          </Grid>
+        </Grid>
+      </Card>
+    </div>
   );
 };
 
