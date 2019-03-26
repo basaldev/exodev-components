@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Hero from './index';
 import Button from '../Button/index';
-const stories = storiesOf('Molecule/Hero', module);
+const stories = storiesOf('Molecules/Hero', module);
 
 // MEMO: I want to have Box components and use it in Hero
 
