@@ -63,15 +63,35 @@ exports[`Storyshots Atoms/Button default 1`] = `
       id="story-root"
       style={Object {}}
     >
-      <button
-        className="StyledButton-sc-323bzc-0 iYzPXe"
-        onBlur={[Function]}
-        onClick={[Function]}
-        onFocus={[Function]}
-        type="button"
-      >
-        button
-      </button>
+      <div>
+        <button
+          className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-text-3 MuiButton-flat-6"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-2"
+          >
+            button
+          </span>
+          <span
+            className="MuiTouchRipple-root-30"
+          />
+        </button>
+      </div>
     </div>
     <div>
       <div
@@ -330,15 +350,35 @@ exports[`Storyshots Atoms/Button inverse 1`] = `
       id="story-root"
       style={Object {}}
     >
-      <button
-        className="StyledButton-sc-323bzc-0 emWWUF"
-        onBlur={[Function]}
-        onClick={[Function]}
-        onFocus={[Function]}
-        type="button"
-      >
-        button
-      </button>
+      <div>
+        <button
+          className="MuiButtonBase-root-63 MuiButton-root-37 MuiButton-text-39 MuiButton-flat-42"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-38"
+          >
+            button
+          </span>
+          <span
+            className="MuiTouchRipple-root-66"
+          />
+        </button>
+      </div>
     </div>
     <div>
       <div
