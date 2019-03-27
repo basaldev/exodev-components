@@ -20,14 +20,14 @@ const styles = createStyles({
 });
 
 interface IProps extends WithStyles<typeof styles> {
-  label: string;
+  label?: string;
   onClick?: (event: MouseEvent<HTMLButtonElement>) => void;
 }
 
 /**
  * Exponential Transformation Book Button
  */
-const EXTButton: FunctionComponent<IProps> = (props: IProps) => {
+const EXTCardButton: FunctionComponent<IProps> = (props: IProps) => {
   const { classes, label } = props;
   return (
     <Button
@@ -35,7 +35,7 @@ const EXTButton: FunctionComponent<IProps> = (props: IProps) => {
         label: classes.label,
         root: classes.root,
       }}
-      onClick={() => alert('EXTButton onClick fired!')}
+      onClick={() => alert('EXTCardButton onClick fired!')}
       variant="contained"
     >
       {label}
@@ -43,4 +43,4 @@ const EXTButton: FunctionComponent<IProps> = (props: IProps) => {
   );
 };
 
-export default withStyles(styles)(EXTButton);
+export default withStyles(styles)(EXTCardButton);

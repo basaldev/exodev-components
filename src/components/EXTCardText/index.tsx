@@ -4,29 +4,31 @@ import { withStyles, WithStyles, createStyles } from '@material-ui/core/styles';
 
 const styles = createStyles({
   root: {
-    color: 'rgb(36, 198, 127)',
-    fontWeight: 700,
-    lineHeight: 1.25,
-    textTransform: 'uppercase',
+    color: 'rgb(74, 74, 74)',
+    fontSize: 16,
+    fontWeight: 300,
+    lineHeight: '24px',
   },
 });
 
 interface IProps extends WithStyles<typeof styles> {
-  size: 'large' | 'medium';
+  text: string;
+}
+
+interface IProps {
   text: string;
 }
 
 /**
- * Exponential Transformation Book Card Subtitle
+ * Exponential Transformation Book Card Text
  */
-const EXTCardSubtitle: FunctionComponent<IProps> = (props: IProps) => {
-  const { classes, size, text } = props;
+const EXTCardText: FunctionComponent<IProps> = (props: IProps) => {
+  const { classes, text } = props;
   return (
     <Typography
       classes={{
         root: classes.root,
       }}
-      style={{ fontSize: size === 'large' ? 32 : 24 }}
       variant={'h2'}
     >
       {text}
@@ -34,4 +36,4 @@ const EXTCardSubtitle: FunctionComponent<IProps> = (props: IProps) => {
   );
 };
 
-export default withStyles(styles)(EXTCardSubtitle);
+export default withStyles(styles)(EXTCardText);

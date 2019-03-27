@@ -5129,65 +5129,106 @@ exports[`Storyshots Molecules/EXTSectionCard default 1`] = `
       style={Object {}}
     >
       <div
-        className="MuiPaper-root-188 MuiPaper-elevation1-191 MuiPaper-rounded-189 MuiCard-root-187"
+        style={
+          Object {
+            "padding": 50,
+          }
+        }
       >
-        <h1
-          className="MuiTypography-root-216 EXTCardHeadline-root-215 MuiTypography-h1-228"
+        <div
+          className="MuiPaper-root-188 MuiPaper-elevation8-198 MuiPaper-rounded-189 MuiCard-root-187"
           style={
             Object {
-              "fontSize": 70,
+              "padding": 24,
             }
           }
         >
-          Navigate Industry Disruption
-        </h1>
-        <h2
-          className="MuiTypography-root-216 EXTCardSubtitle-root-252 MuiTypography-h2-229"
-          style={
-            Object {
-              "fontSize": 32,
-            }
-          }
-        >
-          Overcome your organizational immune system and become a thriving exponential organization
-        </h2>
-        <button
-          className="MuiButtonBase-root-281 MuiButton-root-255 EXTButton-root-254 MuiButton-contained-266 MuiButton-raised-269"
-          disabled={false}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onContextMenu={[Function]}
-          onFocus={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          onMouseDown={[Function]}
-          onMouseLeave={[Function]}
-          onMouseUp={[Function]}
-          onTouchEnd={[Function]}
-          onTouchMove={[Function]}
-          onTouchStart={[Function]}
-          tabIndex="0"
-          type="button"
-        >
-          <span
-            className="MuiButton-label-256 EXTButton-label-253"
+          <div
+            className="MuiGrid-container-215 MuiGrid-spacing-xs-40-241 MuiGrid-align-items-xs-flex-start-224 MuiGrid-justify-xs-space-between-234"
           >
-            Order your copy today!
-          </span>
-          <span
-            className="MuiTouchRipple-root-286"
-          />
-        </button>
-        <img
-          className="MuiCardMedia-root-284 MuiCardMedia-media-285"
-          src="https://exponentialtransformationbook.com/wp-content/uploads/exponential-transformations-book-cover@x2.png"
-          style={
-            Object {
-              "width": 390,
-            }
-          }
-          title="Exponential Transformations book"
-        />
+            <div
+              className="MuiGrid-item-216 MuiGrid-grid-md-6-277"
+            >
+              <div
+                className="MuiGrid-container-215 MuiGrid-spacing-xs-40-241 MuiGrid-direction-xs-column-218 MuiGrid-align-items-xs-flex-start-224 MuiGrid-justify-xs-space-between-234"
+              >
+                <div
+                  className="MuiGrid-item-216"
+                >
+                  <h1
+                    className="MuiTypography-root-313 EXTCardHeadline-root-312 MuiTypography-h1-325"
+                    style={
+                      Object {
+                        "fontSize": 70,
+                      }
+                    }
+                  >
+                    Navigate Industry Disruption
+                  </h1>
+                </div>
+                <div
+                  className="MuiGrid-item-216"
+                >
+                  <h2
+                    className="MuiTypography-root-313 EXTCardSubtitle-root-349 MuiTypography-h2-326"
+                    style={
+                      Object {
+                        "fontSize": 32,
+                      }
+                    }
+                  >
+                    Overcome your organizational immune system and become a thriving exponential organization
+                  </h2>
+                </div>
+                <div
+                  className="MuiGrid-item-216 MuiGrid-align-content-xs-flex-end-229"
+                >
+                  <button
+                    className="MuiButtonBase-root-378 MuiButton-root-352 EXTButton-root-351 MuiButton-contained-363 MuiButton-raised-366"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onContextMenu={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex="0"
+                    type="button"
+                  >
+                    <span
+                      className="MuiButton-label-353 EXTButton-label-350"
+                    >
+                      Order your copy today!
+                    </span>
+                    <span
+                      className="MuiTouchRipple-root-383"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-216 MuiGrid-grid-md-6-277"
+            >
+              <img
+                className="MuiCardMedia-root-381 MuiCardMedia-media-382"
+                src="https://exponentialtransformationbook.com/wp-content/uploads/exponential-transformations-book-cover@x2.png"
+                style={
+                  Object {
+                    "width": 390,
+                  }
+                }
+                title="Exponential Transformations book"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div>
