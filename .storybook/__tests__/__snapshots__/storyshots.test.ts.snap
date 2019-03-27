@@ -1191,7 +1191,7 @@ exports[`Storyshots Atoms/CheckBox with label 1`] = `
 </div>
 `;
 
-exports[`Storyshots Atoms/EXTButton default 1`] = `
+exports[`Storyshots Atoms/EXTCardButton default 1`] = `
 <div
   className="StyledGrommet-sc-19lkkz7-0 bKqTS"
 >
@@ -1233,7 +1233,7 @@ exports[`Storyshots Atoms/EXTButton default 1`] = `
               }
             }
           >
-            Atoms/EXTButton
+            Atoms/EXTCardButton
           </h1>
           <h2
             style={
@@ -1255,7 +1255,7 @@ exports[`Storyshots Atoms/EXTButton default 1`] = `
       style={Object {}}
     >
       <button
-        className="MuiButtonBase-root-101 MuiButton-root-75 EXTButton-root-74 MuiButton-contained-86 MuiButton-raised-89"
+        className="MuiButtonBase-root-101 MuiButton-root-75 EXTCardButton-root-74 MuiButton-contained-86 MuiButton-raised-89"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -1273,7 +1273,7 @@ exports[`Storyshots Atoms/EXTButton default 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label-76 EXTButton-label-73"
+          className="MuiButton-label-76 EXTCardButton-label-73"
         >
           Button label here
         </span>
@@ -1347,7 +1347,7 @@ exports[`Storyshots Atoms/EXTButton default 1`] = `
                   }
                 >
                   &lt;
-                  WithStyles(EXTButton)
+                  WithStyles(EXTCardButton)
                 </span>
                 <span>
                   <span>
@@ -1436,7 +1436,7 @@ exports[`Storyshots Atoms/EXTButton default 1`] = `
               }
             >
               "
-              WithStyles(EXTButton)
+              WithStyles(EXTCardButton)
               " Component
             </h2>
             <table>
@@ -2580,6 +2580,398 @@ exports[`Storyshots Atoms/EXTCardSubtitle default 1`] = `
             >
               "
               WithStyles(EXTCardSubtitle)
+              " Component
+            </h2>
+            <table>
+              <thead>
+                <tr>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    property
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    propType
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    required
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    default
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    description
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    classes
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span />
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    innerRef
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span />
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/EXTCardText default 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 bKqTS"
+>
+  <div>
+    <div>
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "#444",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            Atoms/EXTCardText
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            default
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div
+      id="story-root"
+      style={Object {}}
+    >
+      <h2
+        className="MuiTypography-root-188 EXTCardText-root-187 MuiTypography-h2-201"
+      >
+        As exponential technologies converge and build upon one another, they bring abundance to every industry and, simultaneously, disrupt them all in one way or another.
+      </h2>
+    </div>
+    <div>
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "#444",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  WithStyles(EXTCardText)
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      text
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          As exponential technologies converge and build upo…
+                        </span>
+                        "
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
+            >
+              Copy
+            </button>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h2
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              WithStyles(EXTCardText)
               " Component
             </h2>
             <table>
@@ -5065,7 +5457,7 @@ exports[`Storyshots Atoms/TextInput inverse 1`] = `
 </div>
 `;
 
-exports[`Storyshots Molecules/EXTSectionCard default 1`] = `
+exports[`Storyshots Molecules/EXTSectionCard image on left, with text 1`] = `
 <div
   className="StyledGrommet-sc-19lkkz7-0 bKqTS"
 >
@@ -5119,7 +5511,7 @@ exports[`Storyshots Molecules/EXTSectionCard default 1`] = `
               }
             }
           >
-            default
+            image on left, with text
           </h2>
         </div>
       </div>
@@ -5136,7 +5528,7 @@ exports[`Storyshots Molecules/EXTSectionCard default 1`] = `
         }
       >
         <div
-          className="MuiPaper-root-188 MuiPaper-elevation8-198 MuiPaper-rounded-189 MuiCard-root-187"
+          className="MuiPaper-root-594 MuiPaper-elevation8-604 MuiPaper-rounded-595 MuiCard-root-593"
           style={
             Object {
               "padding": 24,
@@ -5144,19 +5536,585 @@ exports[`Storyshots Molecules/EXTSectionCard default 1`] = `
           }
         >
           <div
-            className="MuiGrid-container-215 MuiGrid-spacing-xs-40-241 MuiGrid-align-items-xs-flex-start-224 MuiGrid-justify-xs-space-between-234"
+            className="MuiGrid-container-621 MuiGrid-spacing-xs-40-647 MuiGrid-direction-xs-row-reverse-626 MuiGrid-align-items-xs-flex-start-630 MuiGrid-justify-xs-space-between-640"
           >
             <div
-              className="MuiGrid-item-216 MuiGrid-grid-md-6-277"
+              className="MuiGrid-item-622 MuiGrid-grid-md-6-683"
             >
               <div
-                className="MuiGrid-container-215 MuiGrid-spacing-xs-40-241 MuiGrid-direction-xs-column-218 MuiGrid-align-items-xs-flex-start-224 MuiGrid-justify-xs-space-between-234"
+                className="MuiGrid-container-621 MuiGrid-spacing-xs-40-647 MuiGrid-direction-xs-column-624 MuiGrid-align-items-xs-flex-start-630 MuiGrid-justify-xs-space-between-640"
               >
                 <div
-                  className="MuiGrid-item-216"
+                  className="MuiGrid-item-622"
                 >
                   <h1
-                    className="MuiTypography-root-313 EXTCardHeadline-root-312 MuiTypography-h1-325"
+                    className="MuiTypography-root-719 EXTCardHeadline-root-718 MuiTypography-h1-731"
+                    style={
+                      Object {
+                        "fontSize": 70,
+                      }
+                    }
+                  >
+                    Exponential technologies change everything
+                  </h1>
+                </div>
+                <div
+                  className="MuiGrid-item-622"
+                >
+                  <h2
+                    className="MuiTypography-root-719 EXTCardSubtitle-root-755 MuiTypography-h2-732"
+                    style={
+                      Object {
+                        "fontSize": 32,
+                      }
+                    }
+                  >
+                    Shift to abundance
+                  </h2>
+                </div>
+                <div
+                  className="MuiGrid-item-622 MuiGrid-align-content-xs-flex-end-635"
+                >
+                  <div
+                    className="MuiGrid-container-621 MuiGrid-spacing-xs-24-645 MuiGrid-direction-xs-column-624"
+                  >
+                    <div
+                      className="MuiGrid-item-622"
+                    >
+                      <h2
+                        className="MuiTypography-root-719 EXTCardText-root-756 MuiTypography-h2-732"
+                      >
+                        As exponential technologies converge and build upon one another, they bring abundance to every industry and, simultaneously, disrupt them all in one way or another.
+                      </h2>
+                    </div>
+                    <div
+                      className="MuiGrid-item-622"
+                    >
+                      <h2
+                        className="MuiTypography-root-719 EXTCardText-root-756 MuiTypography-h2-732"
+                      >
+                        Traditional business models work just fine in a scarcity-based environment, but they are not designed to operate in the fast-approaching world of abundance.
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-622 MuiGrid-grid-md-6-683"
+            >
+              <img
+                className="MuiCardMedia-root-757 MuiCardMedia-media-758"
+                src="https://exponentialtransformationbook.com/wp-content/themes/exponential-transformation-book/hubfs/ExO_September2018/Image/why-02.jpg"
+                style={
+                  Object {
+                    "width": 390,
+                  }
+                }
+                title="Exponential Transformations book"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "#444",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  EXTSectionCard
+                </span>
+                <span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      headline
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          Exponential technologies change everything
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      subtitle
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          Shift to abundance
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      cardText
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          [
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              'As exponential technologies converge and build upo…'
+                            </span>
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              'Traditional business models work just fine in a sc…'
+                            </span>
+                          </span>
+                          ]
+                        </span>
+                        }
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      imageSide
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          left
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      imageSourceUrl
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          https://exponentialtransformationbook.com/wp-conte…
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      imageTitle
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          Exponential Transformations book
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      imageWidth
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#a11",
+                            }
+                          }
+                        >
+                          390
+                        </span>
+                        }
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      variation
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          text
+                        </span>
+                        "
+                      </span>
+                    </span>
+                    <br />
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
+            >
+              Copy
+            </button>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h2
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              EXTSectionCard
+              " Component
+            </h2>
+            <small>
+              No propTypes defined!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/EXTSectionCard image on right, with button 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 bKqTS"
+>
+  <div>
+    <div>
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "#444",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            Molecules/EXTSectionCard
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            image on right, with button
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div
+      id="story-root"
+      style={Object {}}
+    >
+      <div
+        style={
+          Object {
+            "padding": 50,
+          }
+        }
+      >
+        <div
+          className="MuiPaper-root-225 MuiPaper-elevation8-235 MuiPaper-rounded-226 MuiCard-root-224"
+          style={
+            Object {
+              "padding": 24,
+            }
+          }
+        >
+          <div
+            className="MuiGrid-container-252 MuiGrid-spacing-xs-40-278 MuiGrid-align-items-xs-flex-start-261 MuiGrid-justify-xs-space-between-271"
+          >
+            <div
+              className="MuiGrid-item-253 MuiGrid-grid-md-6-314"
+            >
+              <div
+                className="MuiGrid-container-252 MuiGrid-spacing-xs-40-278 MuiGrid-direction-xs-column-255 MuiGrid-align-items-xs-flex-start-261 MuiGrid-justify-xs-space-between-271"
+              >
+                <div
+                  className="MuiGrid-item-253"
+                >
+                  <h1
+                    className="MuiTypography-root-350 EXTCardHeadline-root-349 MuiTypography-h1-362"
                     style={
                       Object {
                         "fontSize": 70,
@@ -5167,10 +6125,10 @@ exports[`Storyshots Molecules/EXTSectionCard default 1`] = `
                   </h1>
                 </div>
                 <div
-                  className="MuiGrid-item-216"
+                  className="MuiGrid-item-253"
                 >
                   <h2
-                    className="MuiTypography-root-313 EXTCardSubtitle-root-349 MuiTypography-h2-326"
+                    className="MuiTypography-root-350 EXTCardSubtitle-root-386 MuiTypography-h2-363"
                     style={
                       Object {
                         "fontSize": 32,
@@ -5181,10 +6139,10 @@ exports[`Storyshots Molecules/EXTSectionCard default 1`] = `
                   </h2>
                 </div>
                 <div
-                  className="MuiGrid-item-216 MuiGrid-align-content-xs-flex-end-229"
+                  className="MuiGrid-item-253 MuiGrid-align-content-xs-flex-end-266"
                 >
                   <button
-                    className="MuiButtonBase-root-378 MuiButton-root-352 EXTButton-root-351 MuiButton-contained-363 MuiButton-raised-366"
+                    className="MuiButtonBase-root-415 MuiButton-root-389 EXTCardButton-root-388 MuiButton-contained-400 MuiButton-raised-403"
                     disabled={false}
                     onBlur={[Function]}
                     onClick={[Function]}
@@ -5202,22 +6160,22 @@ exports[`Storyshots Molecules/EXTSectionCard default 1`] = `
                     type="button"
                   >
                     <span
-                      className="MuiButton-label-353 EXTButton-label-350"
+                      className="MuiButton-label-390 EXTCardButton-label-387"
                     >
                       Order your copy today!
                     </span>
                     <span
-                      className="MuiTouchRipple-root-383"
+                      className="MuiTouchRipple-root-420"
                     />
                   </button>
                 </div>
               </div>
             </div>
             <div
-              className="MuiGrid-item-216 MuiGrid-grid-md-6-277"
+              className="MuiGrid-item-253 MuiGrid-grid-md-6-314"
             >
               <img
-                className="MuiCardMedia-root-381 MuiCardMedia-media-382"
+                className="MuiCardMedia-root-418 MuiCardMedia-media-419"
                 src="https://exponentialtransformationbook.com/wp-content/uploads/exponential-transformations-book-cover@x2.png"
                 style={
                   Object {
@@ -5397,6 +6355,36 @@ exports[`Storyshots Molecules/EXTSectionCard default 1`] = `
                     <span
                       style={Object {}}
                     >
+                      imageSide
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          right
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
                       imageSourceUrl
                     </span>
                     <span>
@@ -5475,6 +6463,1190 @@ exports[`Storyshots Molecules/EXTSectionCard default 1`] = `
                           390
                         </span>
                         }
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      variation
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          button
+                        </span>
+                        "
+                      </span>
+                    </span>
+                    <br />
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
+            >
+              Copy
+            </button>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h2
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              EXTSectionCard
+              " Component
+            </h2>
+            <small>
+              No propTypes defined!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/EXTSectionCard image on right, with text (1) 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 bKqTS"
+>
+  <div>
+    <div>
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "#444",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            Molecules/EXTSectionCard
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            image on right, with text (1)
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div
+      id="story-root"
+      style={Object {}}
+    >
+      <div
+        style={
+          Object {
+            "padding": 50,
+          }
+        }
+      >
+        <div
+          className="MuiPaper-root-428 MuiPaper-elevation8-438 MuiPaper-rounded-429 MuiCard-root-427"
+          style={
+            Object {
+              "padding": 24,
+            }
+          }
+        >
+          <div
+            className="MuiGrid-container-455 MuiGrid-spacing-xs-40-481 MuiGrid-align-items-xs-flex-start-464 MuiGrid-justify-xs-space-between-474"
+          >
+            <div
+              className="MuiGrid-item-456 MuiGrid-grid-md-6-517"
+            >
+              <div
+                className="MuiGrid-container-455 MuiGrid-spacing-xs-40-481 MuiGrid-direction-xs-column-458 MuiGrid-align-items-xs-flex-start-464 MuiGrid-justify-xs-space-between-474"
+              >
+                <div
+                  className="MuiGrid-item-456"
+                >
+                  <h1
+                    className="MuiTypography-root-553 EXTCardHeadline-root-552 MuiTypography-h1-565"
+                    style={
+                      Object {
+                        "fontSize": 70,
+                      }
+                    }
+                  >
+                    Welcome to the most transformative period in human history!
+                  </h1>
+                </div>
+                <div
+                  className="MuiGrid-item-456"
+                >
+                  <h2
+                    className="MuiTypography-root-553 EXTCardSubtitle-root-589 MuiTypography-h2-566"
+                    style={
+                      Object {
+                        "fontSize": 32,
+                      }
+                    }
+                  >
+                    The fourth industrial revolution
+                  </h2>
+                </div>
+                <div
+                  className="MuiGrid-item-456 MuiGrid-align-content-xs-flex-end-469"
+                >
+                  <div
+                    className="MuiGrid-container-455 MuiGrid-spacing-xs-24-479 MuiGrid-direction-xs-column-458"
+                  >
+                    <div
+                      className="MuiGrid-item-456"
+                    >
+                      <h2
+                        className="MuiTypography-root-553 EXTCardText-root-590 MuiTypography-h2-566"
+                      >
+                        We live today in a world of exponential technologies and accelerating breakthroughs, all of which present boundless opportunities. Accessing that opportunity, however, requires organizational evolution.
+                      </h2>
+                    </div>
+                    <div
+                      className="MuiGrid-item-456"
+                    >
+                      <h2
+                        className="MuiTypography-root-553 EXTCardText-root-590 MuiTypography-h2-566"
+                      >
+                        No enterprise will be able to stay alive--much less thrive--without adapting to the exponential rate of change that accelerating technologies deliver.
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-456 MuiGrid-grid-md-6-517"
+            >
+              <img
+                className="MuiCardMedia-root-591 MuiCardMedia-media-592"
+                src="https://exponentialtransformationbook.com/wp-content/themes/exponential-transformation-book/hubfs/ExO_September2018/Image/4a-revolucion.jpg"
+                style={
+                  Object {
+                    "width": 390,
+                  }
+                }
+                title="Exponential Transformations book"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "#444",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  EXTSectionCard
+                </span>
+                <span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      headline
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          Welcome to the most transformative period in human…
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      subtitle
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          The fourth industrial revolution
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      cardText
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          [
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              'We live today in a world of exponential technologi…'
+                            </span>
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              'No enterprise will be able to stay alive--much les…'
+                            </span>
+                          </span>
+                          ]
+                        </span>
+                        }
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      imageSide
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          right
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      imageSourceUrl
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          https://exponentialtransformationbook.com/wp-conte…
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      imageTitle
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          Exponential Transformations book
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      imageWidth
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#a11",
+                            }
+                          }
+                        >
+                          390
+                        </span>
+                        }
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      variation
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          text
+                        </span>
+                        "
+                      </span>
+                    </span>
+                    <br />
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
+            >
+              Copy
+            </button>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h2
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              EXTSectionCard
+              " Component
+            </h2>
+            <small>
+              No propTypes defined!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/EXTSectionCard image on right, with text (2) 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 bKqTS"
+>
+  <div>
+    <div>
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "#444",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            Molecules/EXTSectionCard
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            image on right, with text (2)
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div
+      id="story-root"
+      style={Object {}}
+    >
+      <div
+        style={
+          Object {
+            "padding": 50,
+          }
+        }
+      >
+        <div
+          className="MuiPaper-root-760 MuiPaper-elevation8-770 MuiPaper-rounded-761 MuiCard-root-759"
+          style={
+            Object {
+              "padding": 24,
+            }
+          }
+        >
+          <div
+            className="MuiGrid-container-787 MuiGrid-spacing-xs-40-813 MuiGrid-direction-xs-row-reverse-792 MuiGrid-align-items-xs-flex-start-796 MuiGrid-justify-xs-space-between-806"
+          >
+            <div
+              className="MuiGrid-item-788 MuiGrid-grid-md-6-849"
+            >
+              <div
+                className="MuiGrid-container-787 MuiGrid-spacing-xs-40-813 MuiGrid-direction-xs-column-790 MuiGrid-align-items-xs-flex-start-796 MuiGrid-justify-xs-space-between-806"
+              >
+                <div
+                  className="MuiGrid-item-788"
+                >
+                  <h1
+                    className="MuiTypography-root-885 EXTCardHeadline-root-884 MuiTypography-h1-897"
+                    style={
+                      Object {
+                        "fontSize": 70,
+                      }
+                    }
+                  >
+                    Becoming an Exponential Organization
+                  </h1>
+                </div>
+                <div
+                  className="MuiGrid-item-788"
+                >
+                  <h2
+                    className="MuiTypography-root-885 EXTCardSubtitle-root-921 MuiTypography-h2-898"
+                    style={
+                      Object {
+                        "fontSize": 32,
+                      }
+                    }
+                  >
+                    Take advantage of abundance to grow faster
+                  </h2>
+                </div>
+                <div
+                  className="MuiGrid-item-788 MuiGrid-align-content-xs-flex-end-801"
+                >
+                  <div
+                    className="MuiGrid-container-787 MuiGrid-spacing-xs-24-811 MuiGrid-direction-xs-column-790"
+                  >
+                    <div
+                      className="MuiGrid-item-788"
+                    >
+                      <h2
+                        className="MuiTypography-root-885 EXTCardText-root-922 MuiTypography-h2-898"
+                      >
+                        An Exponential Organization (ExO) is one whose impact (or output) is disproportionately large, at least 10x larger, compared to its peers because of the use of new organization techniques that leverage accelerating technologies.
+                      </h2>
+                    </div>
+                    <div
+                      className="MuiGrid-item-788"
+                    >
+                      <h2
+                        className="MuiTypography-root-885 EXTCardText-root-922 MuiTypography-h2-898"
+                      >
+                        Your organization’s success comes from the ability to unlock the abundance delivered by emerging technologies, and readily adapt to your rapidly changing business environment.
+                      </h2>
+                    </div>
+                    <div
+                      className="MuiGrid-item-788"
+                    >
+                      <h2
+                        className="MuiTypography-root-885 EXTCardText-root-922 MuiTypography-h2-898"
+                      >
+                        Beware the organizational immune system! It will rally to attack your efforts to transform.
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="MuiGrid-item-788 MuiGrid-grid-md-6-849"
+            >
+              <img
+                className="MuiCardMedia-root-923 MuiCardMedia-media-924"
+                src="https://exponentialtransformationbook.com/wp-content/themes/exponential-transformation-book/hubfs/ExO_September2018/Image/cohete-02.png"
+                style={
+                  Object {
+                    "width": 390,
+                  }
+                }
+                title="Exponential Transformations book"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "#444",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  EXTSectionCard
+                </span>
+                <span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      headline
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          Becoming an Exponential Organization
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      subtitle
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          Take advantage of abundance to grow faster
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      cardText
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          [
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              'An Exponential Organization (ExO) is one whose imp…'
+                            </span>
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              'Your organization’s success comes from the ability…'
+                            </span>
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              'Beware the organizational immune system! It will r…'
+                            </span>
+                          </span>
+                          ]
+                        </span>
+                        }
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      imageSide
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          left
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      imageSourceUrl
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          https://exponentialtransformationbook.com/wp-conte…
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      imageTitle
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          Exponential Transformations book
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      imageWidth
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#a11",
+                            }
+                          }
+                        >
+                          390
+                        </span>
+                        }
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                    <span>
+                      <br />
+                        
+                    </span>
+                    <span
+                      style={Object {}}
+                    >
+                      variation
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          text
+                        </span>
+                        "
                       </span>
                     </span>
                     <br />
