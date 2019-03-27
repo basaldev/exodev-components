@@ -7723,6 +7723,608 @@ exports[`Storyshots Molecules/EXTSectionCard image on right, with text (2) 1`] =
 </div>
 `;
 
+exports[`Storyshots Molecules/FooterContent default 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 bKqTS"
+>
+  <div>
+    <div>
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "#444",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            Molecules/FooterContent
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            default
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div
+      id="story-root"
+      style={Object {}}
+    >
+      <div
+        className="MuiGrid-container-925 MuiGrid-spacing-xs-40-951 MuiGrid-direction-xs-column-928 MuiGrid-align-items-xs-center-933 MuiGrid-justify-xs-center-942"
+        style={
+          Object {
+            "backgroundColor": "purple",
+            "maxWidth": 800,
+          }
+        }
+      >
+        <div
+          className="MuiGrid-item-926"
+        >
+          <img
+            className="MuiCardMedia-root-1022 MuiCardMedia-media-1023"
+            src="https://exolaunchpad.com/imgs/social/openexo_logo_white.png"
+          />
+        </div>
+        <div
+          className="MuiGrid-item-926"
+        >
+          <div
+            className="MuiGrid-container-925 MuiGrid-spacing-xs-40-951"
+          >
+            <div
+              className="MuiGrid-item-926"
+            >
+              <a
+                className="MuiTypography-root-1029 MuiTypography-body1-1038 MuiTypography-colorPrimary-1059 MuiTypography-alignLeft-1051 MuiTypography-inline-1064 MuiLink-root-1024 MuiLink-underlineAlways-1027"
+                href="https://exponentialorgs.com/"
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                Exponential Organizations
+              </a>
+            </div>
+            <div
+              className="MuiGrid-item-926"
+            >
+              <a
+                className="MuiTypography-root-1029 MuiTypography-body1-1038 MuiTypography-colorPrimary-1059 MuiTypography-alignLeft-1051 MuiTypography-inline-1064 MuiLink-root-1024 MuiLink-underlineAlways-1027"
+                href="https://exponentialtransformationbook.com/"
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                Exponential Transformation
+              </a>
+            </div>
+            <div
+              className="MuiGrid-item-926"
+            >
+              <a
+                className="MuiTypography-root-1029 MuiTypography-body1-1038 MuiTypography-colorPrimary-1059 MuiTypography-alignLeft-1051 MuiTypography-inline-1064 MuiLink-root-1024 MuiLink-underlineAlways-1027"
+                href="https://www.exocanvas.com/"
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+              >
+                ExO Canvas
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-926"
+        >
+          <p
+            className="MuiTypography-root-1029 MuiTypography-body1-1038 MuiTypography-alignCenter-1052"
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+            Building Exponential Organizations - OpenExO® 2019
+          </p>
+          <p
+            className="MuiTypography-root-1029 MuiTypography-body1-1038 MuiTypography-alignCenter-1052"
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+            Copyright © 2019 All rights reserved
+          </p>
+          <p
+            className="MuiTypography-root-1029 MuiTypography-body1-1038 MuiTypography-alignCenter-1052"
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+            Made with ❤ by ExO DevHub
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "#444",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  FooterContent
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      logoSourceUrl
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          https://exolaunchpad.com/imgs/social/openexo_logo_…
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      links
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          [
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              {
+                              <span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  label
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'Exponential Organizations'
+                              </span>
+                              ,
+                              <span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  url
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'https://exponentialorgs.com/'
+                              </span>
+                              }
+                            </span>
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              {
+                              <span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  label
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'Exponential Transformation'
+                              </span>
+                              ,
+                              <span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  url
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'https://exponentialtransformationbook.com/'
+                              </span>
+                              }
+                            </span>
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              {
+                              <span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  label
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'ExO Canvas'
+                              </span>
+                              ,
+                              <span>
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#666",
+                                    }
+                                  }
+                                >
+                                  url
+                                </span>
+                              </span>
+                              : 
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                'https://www.exocanvas.com/'
+                              </span>
+                              }
+                            </span>
+                          </span>
+                          ]
+                        </span>
+                        }
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      companyInfo
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          [
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              'Building Exponential Organizations - OpenExO® 2019'
+                            </span>
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              'Copyright © 2019 All rights reserved'
+                            </span>
+                          </span>
+                          ,
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              'Made with ❤ by ExO DevHub'
+                            </span>
+                          </span>
+                          ]
+                        </span>
+                        }
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
+            >
+              Copy
+            </button>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h2
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              FooterContent
+              " Component
+            </h2>
+            <small>
+              No propTypes defined!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Molecules/Hero With background Color 1`] = `
 <div
   className="StyledGrommet-sc-19lkkz7-0 bKqTS"
@@ -8894,6 +9496,375 @@ exports[`Storyshots Molecules/Hero default 1`] = `
 </div>
 `;
 
+exports[`Storyshots Molecules/HeroContent default 1`] = `
+<div
+  className="StyledGrommet-sc-19lkkz7-0 bKqTS"
+>
+  <div>
+    <div>
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "#444",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            Molecules/HeroContent
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            default
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div
+      id="story-root"
+      style={Object {}}
+    >
+      <div
+        className="MuiGrid-container-1065 MuiGrid-spacing-xs-40-1091 MuiGrid-direction-xs-column-1068 MuiGrid-align-items-xs-flex-start-1074"
+        style={
+          Object {
+            "backgroundColor": "blue",
+            "maxWidth": 800,
+          }
+        }
+      >
+        <div
+          className="MuiGrid-item-1066"
+        >
+          <img
+            className="MuiCardMedia-root-1162 MuiCardMedia-media-1163"
+            src="https://exolaunchpad.com/imgs/social/logo.svg"
+          />
+        </div>
+        <div
+          className="MuiGrid-item-1066"
+        >
+          <p
+            className="MuiTypography-root-1164 MuiTypography-body1-1173 MuiTypography-alignLeft-1186"
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+            Launchpad helps you build a new type of organization, an ExO or Exponential Organization. An ExO is a purpose-driven venture that leverages exponential technologies and a set of common attributes to grow and transform the world.
+          </p>
+        </div>
+        <div
+          className="MuiGrid-item-1066"
+        >
+           
+          <button
+            className="MuiButtonBase-root-1226 MuiButton-root-1200 MuiButton-outlined-1208"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={
+              Object {
+                "borderColor": "yellow",
+                "borderRadius": 24,
+                "color": "yellow",
+              }
+            }
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-1201"
+            >
+              Join the Community
+            </span>
+            <span
+              className="MuiTouchRipple-root-1229"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "color": "#444",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  &lt;
+                  HeroContent
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      logoSourceUrl
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          https://exolaunchpad.com/imgs/social/logo.svg
+                        </span>
+                        "
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      paragraphTexts
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        {
+                        <span
+                          style={
+                            Object {
+                              "color": "#666",
+                            }
+                          }
+                        >
+                          [
+                          <span>
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              'Launchpad helps you build a new type of organizati…'
+                            </span>
+                          </span>
+                          ]
+                        </span>
+                        }
+                      </span>
+                    </span>
+                  </span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      buttonLabel
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        "
+                        <span
+                          style={
+                            Object {
+                              "color": "#22a",
+                              "wordBreak": "break-word",
+                            }
+                          }
+                        >
+                          Join the Community
+                        </span>
+                        "
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#444",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </div>
+            <button
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
+            >
+              Copy
+            </button>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Prop Types
+          </h1>
+          <div>
+            <h2
+              style={
+                Object {
+                  "margin": "20px 0 0 0",
+                }
+              }
+            >
+              "
+              HeroContent
+              " Component
+            </h2>
+            <small>
+              No propTypes defined!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Molecules/VerticalIconTitleParagraph default 1`] = `
 <div
   className="StyledGrommet-sc-19lkkz7-0 bKqTS"
@@ -8958,10 +9929,10 @@ exports[`Storyshots Molecules/VerticalIconTitleParagraph default 1`] = `
       style={Object {}}
     >
       <div
-        className="MuiPaper-root-926 MuiPaper-elevation1-929 MuiPaper-rounded-927 MuiCard-root-925"
+        className="MuiPaper-root-1237 MuiPaper-elevation1-1240 MuiPaper-rounded-1238 MuiCard-root-1236"
       >
         <div
-          className="MuiGrid-container-953 MuiGrid-spacing-xs-40-979 MuiGrid-direction-xs-column-956 MuiGrid-align-items-xs-center-961 MuiGrid-justify-xs-center-970"
+          className="MuiGrid-container-1264 MuiGrid-spacing-xs-40-1290 MuiGrid-direction-xs-column-1267 MuiGrid-align-items-xs-center-1272 MuiGrid-justify-xs-center-1281"
           style={
             Object {
               "maxWidth": 600,
@@ -8969,27 +9940,27 @@ exports[`Storyshots Molecules/VerticalIconTitleParagraph default 1`] = `
           }
         >
           <div
-            className="MuiGrid-item-954"
+            className="MuiGrid-item-1265"
           >
             <img
-              className="MuiCardMedia-root-1050 MuiCardMedia-media-1051"
+              className="MuiCardMedia-root-1361 MuiCardMedia-media-1362"
               src="https://exolaunchpad.com/imgs/feature_3.png"
             />
           </div>
           <div
-            className="MuiGrid-item-954"
+            className="MuiGrid-item-1265"
           >
             <h3
-              className="MuiTypography-root-1052 MuiTypography-h3-1066 MuiTypography-alignCenter-1075"
+              className="MuiTypography-root-1363 MuiTypography-h3-1377 MuiTypography-alignCenter-1386"
             >
               Why you need ExO Launchpad?
             </h3>
           </div>
           <div
-            className="MuiGrid-item-954"
+            className="MuiGrid-item-1265"
           >
             <p
-              className="MuiTypography-root-1052 MuiTypography-body1-1061 MuiTypography-alignCenter-1075"
+              className="MuiTypography-root-1363 MuiTypography-body1-1372 MuiTypography-alignCenter-1386"
             >
               ExO Launchpad includes a number of our open tools and resources: ExO canvas, tools and methods allow anyone to tap into abundance and to manage it to scale exponentially as we deliver you educational resources, field experts and tools to help you build great exponential organizations.
             </p>
