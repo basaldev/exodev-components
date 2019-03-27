@@ -214,7 +214,7 @@ const FormArea: FunctionComponent<IProps> = (props: IProps) => {
         <Button
           onClick={() => {
             alert(
-              `EXTCardButton onClick fired with email ${email}, name ${name}, location ${location}, joinMailingList ${joinMailingList}`,
+              `EXTCardButton onClick fired with email ${email}, name ${name}, linkedInUrl ${linkedInUrl}, location ${location}, joinMailingList ${joinMailingList}`,
             );
           }}
           variant="outlined"
