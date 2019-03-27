@@ -9,6 +9,7 @@ interface IProps {
 
 /**
  * VerticalIconTitleParagraph
+ *
  * Molecule: Vertical layout of icon above title above paragraph of text
  */
 const VerticalIconTitleParagraph: FunctionComponent<IProps> = (
