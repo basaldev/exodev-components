@@ -1,11 +1,11 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import RowLayout1Column12 from './';
+import RowLayout1Centered from './';
 
 const stories = storiesOf('ContentPatterns', module);
 
 stories.add('', () => (
-  <RowLayout1Column12
+  <RowLayout1Centered
     widthOutOf12={8}
     middleComponent={<div style={{ background: 'yellow', height: 300 }} />}
   />

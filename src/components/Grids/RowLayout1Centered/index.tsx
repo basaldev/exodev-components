@@ -6,7 +6,7 @@ interface IProps {
   widthOutOf12: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12;
 }
 
-const RowLayout1Column12: FunctionComponent<IProps> = (props: IProps) => {
+const RowLayout1Centered: FunctionComponent<IProps> = (props: IProps) => {
   const { middleComponent, widthOutOf12 } = props;
   return (
     <div>
@@ -19,4 +19,4 @@ const RowLayout1Column12: FunctionComponent<IProps> = (props: IProps) => {
   );
 };
 
-export default RowLayout1Column12;
+export default RowLayout1Centered;
