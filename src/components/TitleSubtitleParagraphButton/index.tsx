@@ -6,50 +6,76 @@ interface IProps {
   subtitleText?: string;
   paragraphTexts?: string[];
   buttonComponent?: ReactNode;
+  spacing?: 0 | 8 | 16 | 24 | 32 | 40;
+  textAlign?: 'center' | 'right' | 'left';
+  buttonAlign?: 'center' | 'stretch' | 'flex-start' | 'flex-end' | 'baseline';
   titleConfig?: {
-    variant: "h1" | "h2" | "h3"
+    variant: 'h1' | 'h2' | 'h3';
+    align: 'inherit' | 'justify' | 'center' | 'left' | 'right';
   };
   subtitleConfig?: {
-    variant: "h2" | "h3" | "h4"
+    variant: 'h2' | 'h3' | 'h4';
+    align: 'inherit' | 'justify' | 'center' | 'left' | 'right';
   };
 }
-
-const defaultTitleConfig : IProps["titleConfig"] = {
-  variant: "h1"
-};
-const defaultSubtitleConfig : IProps["subtitleConfig"] = {
-  variant: "h2"
-};
 
 /**
  * TitleSubtitleParagraphButton
  */
-const TitleSubtitleParagraphButton: FunctionComponent<IProps> = (
-  props: IProps,
-) => {
-  const { titleText, subtitleText, paragraphTexts, buttonComponent, titleConfig, subtitleConfig } = props;
-  const titleProps = typeof titleConfig !== 'undefined' ? {...defaultTitleConfig, ...titleConfig} : defaultTitleConfig;
-  const subtitleProps = typeof subtitleConfig !== 'undefined' ? {...defaultSubtitleConfig, ...subtitleConfig} : defaultSubtitleConfig;
 
+const defaultProps = {
+  spacing: 8,
+  textAlign: 'left',
+  buttonAlign: 'center',
+  titleConfig: {
+    variant: 'h1',
+    align: 'left',
+  },
+  subtitleConfig: {
+    variant: 'h2',
+    align: 'left',
+  },
+};
+
+const TitleSubtitleParagraphButton: FunctionComponent<IProps> = ({
+  titleText,
+  textAlign,
+  subtitleText,
+  spacing,
+  buttonAlign = defaultProps.buttonAlign,
+  paragraphTexts,
+  buttonComponent,
+  titleConfig = defaultProps.titleConfig,
+  subtitleConfig = defaultProps.subtitleConfig,
+}: IProps) => {
   return (
     <>
-      <Grid container direction="column">
+      <Grid container direction="column" spacing={spacing}>
         <Grid item>
           {/* Title */}
-          <Typography  variant={titleProps.variant}>{titleText}</Typography>
+          <Typography align={titleConfig.align} variant={titleConfig.variant}>
+            {titleText}
+          </Typography>
         </Grid>
         <Grid item>
           {/* Subtitle */}
-          <Typography variant={subtitleProps.variant} >{subtitleText}</Typography>
+          <Typography
+            align={subtitleConfig.align}
+            variant={subtitleConfig.variant}
+          >
+            {subtitleText}
+          </Typography>
         </Grid>
         <Grid item>
           {/* Paragraphs */}
           {paragraphTexts &&
             paragraphTexts.map((text) => (
-              <Typography variant={'body1'}>{text}</Typography>
+              <Typography align={textAlign} variant={'body1'}>
+                {text}
+              </Typography>
             ))}
         </Grid>
-        <Grid item>
+        <Grid item alignItems={buttonAlign}>
           {/* Button Component */}
           {buttonComponent}
         </Grid>

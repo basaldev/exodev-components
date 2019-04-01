@@ -6,6 +6,7 @@
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "@types/react-helmet": "^5.0.8",
+    "emotion": "^10.0.9",
     "grommet": "^2.3.1",
     "react-helmet": "^5.2.0"
   },
