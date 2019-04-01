@@ -9,13 +9,13 @@ interface IProps {
 }
 
 /**
- * RowLayout2And2And2And2
+ * RowLayout3/And3And3And3
  *
  * Material Design’s responsive UI is based on a 12-column grid layout.
  * xs, extra-small: 0px or larger
  * sm, small: 600px or larger
  */
-const RowLayout2And2And2And2: FunctionComponent<IProps> = (props: IProps) => {
+const RowLayout3And3And3And3: FunctionComponent<IProps> = (props: IProps) => {
   const {
     farLeftComponent,
     leftOfCenterComponent,
@@ -47,4 +47,4 @@ const RowLayout2And2And2And2: FunctionComponent<IProps> = (props: IProps) => {
   );
 };
 
-export default RowLayout2And2And2And2;
+export default RowLayout3And3And3And3;

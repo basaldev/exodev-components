@@ -1,11 +1,11 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import RowLayout2And2And2And2 from './';
+import RowLayout3And3And3And3 from './';
 
-const stories = storiesOf('Molecules/RowLayout2And2And2And2', module);
+const stories = storiesOf('ContentPatterns/RowLayout3And3And3And3', module);
 
 stories.add('default', () => (
-  <RowLayout2And2And2And2
+  <RowLayout3And3And3And3
     farLeftComponent={
       <div style={{ backgroundColor: 'red', height: 400 }}>far left</div>
     }

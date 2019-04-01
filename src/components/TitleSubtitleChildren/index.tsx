@@ -1,7 +1,8 @@
-import React, { FunctionComponent, ReactNode } from 'react';
+import React, { FunctionComponent, ReactNode, ReactChildren } from 'react';
 import { Grid, Typography } from '@material-ui/core';
 
 interface IProps {
+  children?: ReactChildren;
   titleText?: string;
   subtitleText?: string;
   paragraphTexts?: string[];
@@ -24,13 +25,12 @@ const defaultSubtitleConfig : IProps["subtitleConfig"] = {
 /**
  * TitleSubtitleParagraphButton
  */
-const TitleSubtitleParagraphButton: FunctionComponent<IProps> = (
+const TitleSubtitleChildren: FunctionComponent<IProps> = (
   props: IProps,
 ) => {
-  const { titleText, subtitleText, paragraphTexts, buttonComponent, titleConfig, subtitleConfig } = props;
+  const { titleText, subtitleText, children, titleConfig, subtitleConfig } = props;
   const titleProps = typeof titleConfig !== 'undefined' ? {...defaultTitleConfig, ...titleConfig} : defaultTitleConfig;
   const subtitleProps = typeof subtitleConfig !== 'undefined' ? {...defaultSubtitleConfig, ...subtitleConfig} : defaultSubtitleConfig;
-
   return (
     <>
       <Grid container direction="column">
@@ -43,19 +43,11 @@ const TitleSubtitleParagraphButton: FunctionComponent<IProps> = (
           <Typography variant={subtitleProps.variant} >{subtitleText}</Typography>
         </Grid>
         <Grid item>
-          {/* Paragraphs */}
-          {paragraphTexts &&
-            paragraphTexts.map((text) => (
-              <Typography variant={'body1'}>{text}</Typography>
-            ))}
-        </Grid>
-        <Grid item>
-          {/* Button Component */}
-          {buttonComponent}
+          {children}
         </Grid>
       </Grid>
     </>
   );
 };
 
-export default TitleSubtitleParagraphButton;
+export default TitleSubtitleChildren;

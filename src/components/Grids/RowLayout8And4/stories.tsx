@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import RowLayout8And4 from './';
 
-const stories = storiesOf('Molecules/RowLayout8And4', module);
+const stories = storiesOf('ContentPatterns/RowLayout8And4', module);
 
 stories.add('default', () => (
   <RowLayout8And4
