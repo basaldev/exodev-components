@@ -28,9 +28,11 @@ stories.add('PageExample', () => (
           spacing={24}
           titleConfig={{
             variant: 'h3',
+            align: 'left',
           }}
           subtitleConfig={{
             variant: 'h4',
+            align: 'left',
           }}
           titleText="Access the disruptive thinking, exponential technology insights and industry leaders you need to transform for the future Exponential Organizations"
           subtitleText="OpenExO is a Global Transformation Ecosystem helping organizations, institutions and people to transform and unlock abundance"
@@ -92,6 +94,7 @@ stories.add('PageExample', () => (
         <TitleSubtitleParagraphButton
           subtitleConfig={{
             variant: 'h4',
+            align: 'center',
           }}
           textAlign={'center'}
           subtitleText="What’s going on now with ExO?"
@@ -127,6 +130,7 @@ stories.add('PageExample', () => (
           titleText="WHY do I need to transform?"
           titleConfig={{
             variant: 'h3',
+            align: 'left',
           }}
           buttonComponent={<Button variant="flat">Learn More</Button>}
         />
@@ -136,6 +140,7 @@ stories.add('PageExample', () => (
           titleText="HOW can I transform?"
           titleConfig={{
             variant: 'h3',
+            align: 'left',
           }}
           buttonComponent={<Button variant="flat">Learn More</Button>}
         />
@@ -151,6 +156,7 @@ stories.add('PageExample', () => (
         <TitleSubtitleParagraphButton
           subtitleConfig={{
             variant: 'h4',
+            align: 'left',
           }}
           subtitleText="What’s going on now with ExO?"
           paragraphTexts={[
@@ -226,6 +232,7 @@ stories.add('PageExample', () => (
           subtitleText="Interested to Help Build Exponential Organizations?"
           subtitleConfig={{
             variant: 'h3',
+            align: 'left',
           }}
           buttonComponent={<Button variant="flat">REQUEST A SERVICE</Button>}
         />

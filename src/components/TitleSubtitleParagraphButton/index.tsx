@@ -1,6 +1,9 @@
 import React, { FunctionComponent, ReactNode } from 'react';
 import { Grid, Typography } from '@material-ui/core';
 
+type subtitleVarient = 'h2' | 'h3' | 'h4';
+
+type alignTypo = 'inherit' | 'justify' | 'center' | 'left' | 'right';
 interface IProps {
   titleText?: string;
   subtitleText?: string;
@@ -10,12 +13,12 @@ interface IProps {
   textAlign?: 'center' | 'right' | 'left';
   buttonAlign?: 'center' | 'stretch' | 'flex-start' | 'flex-end' | 'baseline';
   titleConfig?: {
-    variant: 'h1' | 'h2' | 'h3';
-    align: 'inherit' | 'justify' | 'center' | 'left' | 'right';
+    variant: any;
+    align?: any;
   };
   subtitleConfig?: {
-    variant: 'h2' | 'h3' | 'h4';
-    align: 'inherit' | 'justify' | 'center' | 'left' | 'right';
+    variant: subtitleVarient;
+    align?: alignTypo;
   };
 }
 
@@ -37,34 +40,46 @@ const defaultProps = {
   },
 };
 
+const TitleComp = (titleProps, titleText) => {
+  return (
+    <Typography align={titleProps.align} variant={titleProps.variant}>
+      {titleText}
+    </Typography>
+  );
+};
+
+const SubtitleComp = (subtitleProps, subtitleText) => {
+  return (
+    <Typography align={subtitleProps.align} variant={subtitleProps.variant}>
+      {subtitleText}
+    </Typography>
+  );
+};
+
 const TitleSubtitleParagraphButton: FunctionComponent<IProps> = ({
   titleText,
   textAlign,
   subtitleText,
   spacing,
-  buttonAlign = defaultProps.buttonAlign,
+  buttonAlign,
   paragraphTexts,
   buttonComponent,
-  titleConfig = defaultProps.titleConfig,
-  subtitleConfig = defaultProps.subtitleConfig,
+  titleConfig,
+  subtitleConfig,
 }: IProps) => {
+  const titleProps: any = titleConfig || defaultProps.titleConfig;
+  const subtitleProps: any = subtitleConfig || defaultProps.subtitleConfig;
+
   return (
     <>
       <Grid container direction="column" spacing={spacing}>
         <Grid item>
           {/* Title */}
-          <Typography align={titleConfig.align} variant={titleConfig.variant}>
-            {titleText}
-          </Typography>
+          {TitleComp(titleProps, titleText)}
         </Grid>
         <Grid item>
           {/* Subtitle */}
-          <Typography
-            align={subtitleConfig.align}
-            variant={subtitleConfig.variant}
-          >
-            {subtitleText}
-          </Typography>
+          {SubtitleComp(subtitleProps, subtitleText)}
         </Grid>
         <Grid item>
           {/* Paragraphs */}
