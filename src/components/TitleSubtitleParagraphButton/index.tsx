@@ -11,11 +11,11 @@ interface IProps {
   buttonAlign?: 'center' | 'stretch' | 'flex-start' | 'flex-end' | 'baseline';
   titleConfig?: {
     variant: 'h1' | 'h2' | 'h3';
-    align: 'inherit' | 'justify' | 'center' | 'left' | 'right';
+    align?: 'inherit' | 'justify' | 'center' | 'left' | 'right';
   };
   subtitleConfig?: {
     variant: 'h2' | 'h3' | 'h4';
-    align: 'inherit' | 'justify' | 'center' | 'left' | 'right';
+    align?: 'inherit' | 'justify' | 'center' | 'left' | 'right';
   };
 }
 
@@ -23,7 +23,7 @@ interface IProps {
  * TitleSubtitleParagraphButton
  */
 
-const defaultProps = {
+const defaultProps: IProps = {
   spacing: 8,
   textAlign: 'left',
   buttonAlign: 'center',
@@ -53,15 +53,18 @@ const TitleSubtitleParagraphButton: FunctionComponent<IProps> = ({
       <Grid container direction="column" spacing={spacing}>
         <Grid item>
           {/* Title */}
-          <Typography align={titleConfig.align} variant={titleConfig.variant}>
+          <Typography
+            align={titleConfig && titleConfig.align}
+            variant={titleConfig && titleConfig.variant}
+          >
             {titleText}
           </Typography>
         </Grid>
         <Grid item>
           {/* Subtitle */}
           <Typography
-            align={subtitleConfig.align}
-            variant={subtitleConfig.variant}
+            align={subtitleConfig && subtitleConfig.align}
+            variant={subtitleConfig && subtitleConfig.variant}
           >
             {subtitleText}
           </Typography>
