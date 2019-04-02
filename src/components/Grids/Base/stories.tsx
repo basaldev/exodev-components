@@ -16,8 +16,8 @@ stories.add('PageExample', () => (
       middleComponent={
         <TitleSubtitleParagraphButton
           spacing={24}
-          titleText="Building Exponential Organizations"
-          subtitleText="The Global ExO Transformation Ecosystem"
+          titleConfig={{ text: 'Building Exponential Organizations' }}
+          subtitleConfig={{ text: 'The Global ExO Transformation Ecosystem' }}
         />
       }
     />
@@ -27,15 +27,17 @@ stories.add('PageExample', () => (
         <TitleSubtitleParagraphButton
           spacing={24}
           titleConfig={{
+            text:
+              'Access the disruptive thinking, exponential technology insights and industry leaders you need to transform for the future Exponential Organizations',
             variant: 'h3',
             align: 'left',
           }}
           subtitleConfig={{
+            text:
+              'OpenExO is a Global Transformation Ecosystem helping organizations, institutions and people to transform and unlock abundance',
             variant: 'h4',
             align: 'left',
           }}
-          titleText="Access the disruptive thinking, exponential technology insights and industry leaders you need to transform for the future Exponential Organizations"
-          subtitleText="OpenExO is a Global Transformation Ecosystem helping organizations, institutions and people to transform and unlock abundance"
         />
       }
     />
@@ -47,11 +49,11 @@ stories.add('PageExample', () => (
             <TitleSubtitleParagraphButton
               spacing={24}
               subtitleConfig={{
+                text: 'We do this by helping clients',
                 variant: 'h4',
                 align: 'center',
               }}
               textAlign={'center'}
-              subtitleText="We do this by helping clients"
               paragraphTexts={[
                 `Fortune 500 businesses, small and medium sized businesses, cities of one million or more citizens, inspired individuals and community leaders`,
               ]}
@@ -61,11 +63,11 @@ stories.add('PageExample', () => (
             <TitleSubtitleParagraphButton
               spacing={24}
               subtitleConfig={{
+                text: 'We do this by helping clients',
                 variant: 'h4',
                 align: 'center',
               }}
               textAlign={'center'}
-              subtitleText="We do this by helping clients"
               paragraphTexts={[
                 `Exponential Organizations (ExO) Sprints and On-Demand Services in the industry, technology or area of expertise you need`,
               ]}
@@ -75,11 +77,11 @@ stories.add('PageExample', () => (
             <TitleSubtitleParagraphButton
               spacing={24}
               subtitleConfig={{
+                text: 'We do this by helping clients',
                 variant: 'h4',
                 align: 'center',
               }}
-              textAlign={'center'}
-              subtitleText="We do this by helping clients"
+              textAlign="center"
               paragraphTexts={[
                 `We kickstart and accelerate your ideas and initiatives with the help of the OpenExO Ecosystem, converting disruptive stress into disruptive opportunity`,
               ]}
@@ -93,11 +95,11 @@ stories.add('PageExample', () => (
       middleComponent={
         <TitleSubtitleParagraphButton
           subtitleConfig={{
+            text: 'What’s going on now with ExO?',
             variant: 'h4',
             align: 'center',
           }}
           textAlign={'center'}
-          subtitleText="What’s going on now with ExO?"
           paragraphTexts={[
             `Check out our events taking place all over the world addressing the disruptive forces shaping industries, businesses and society.`,
           ]}
@@ -107,7 +109,9 @@ stories.add('PageExample', () => (
     />
     <RowLayout1Centered
       widthOutOf12={8}
-      middleComponent={<TitleSubtitleParagraphButton titleText="ExO Books" />}
+      middleComponent={
+        <TitleSubtitleParagraphButton titleConfig={{ text: 'ExO Books' }} />
+      }
     />
     {/* Make new TSPB */}
     <RowLayout1Centered
@@ -127,8 +131,8 @@ stories.add('PageExample', () => (
     <RowLayout6And6
       leftComponent={
         <TitleSubtitleParagraphButton
-          titleText="WHY do I need to transform?"
           titleConfig={{
+            text: 'WHY do I need to transform?',
             variant: 'h3',
             align: 'left',
           }}
@@ -137,8 +141,8 @@ stories.add('PageExample', () => (
       }
       rightComponent={
         <TitleSubtitleParagraphButton
-          titleText="HOW can I transform?"
           titleConfig={{
+            text: 'HOW can I transform?',
             variant: 'h3',
             align: 'left',
           }}
@@ -148,17 +152,19 @@ stories.add('PageExample', () => (
     />
     <RowLayout1Centered
       widthOutOf12={8}
-      middleComponent={<TitleSubtitleParagraphButton titleText="ExO Books" />}
+      middleComponent={
+        <TitleSubtitleParagraphButton titleConfig={{ text: 'ExO Books' }} />
+      }
     />
     <RowLayout1Centered
       widthOutOf12={8}
       middleComponent={
         <TitleSubtitleParagraphButton
           subtitleConfig={{
+            text: 'What’s going on now with ExO?',
             variant: 'h4',
             align: 'left',
           }}
-          subtitleText="What’s going on now with ExO?"
           paragraphTexts={[
             `Check out our events taking place all over the world addressing the disruptive forces shaping industries, businesses and society.`,
           ]}
@@ -169,7 +175,9 @@ stories.add('PageExample', () => (
     <RowLayout1Centered
       widthOutOf12={8}
       middleComponent={
-        <TitleSubtitleParagraphButton titleText="Transformation as a service" />
+        <TitleSubtitleParagraphButton
+          titleConfig={{ text: 'Transformation as a service' }}
+        />
       }
     />
     <RowLayout1Centered
@@ -211,7 +219,9 @@ stories.add('PageExample', () => (
     <RowLayout1Centered
       widthOutOf12={8}
       middleComponent={
-        <TitleSubtitleParagraphButton titleText="OpenExO Ecosystem" />
+        <TitleSubtitleParagraphButton
+          titleConfig={{ text: 'OpenExO Ecosystem' }}
+        />
       }
     />
     <RowLayout1Centered
@@ -229,8 +239,8 @@ stories.add('PageExample', () => (
       widthOutOf12={8}
       middleComponent={
         <TitleSubtitleParagraphButton
-          subtitleText="Interested to Help Build Exponential Organizations?"
           subtitleConfig={{
+            text: 'Interested to Help Build Exponential Organizations?',
             variant: 'h3',
             align: 'left',
           }}

@@ -4,7 +4,7 @@ import { Grid, Typography } from '@material-ui/core';
 type TitleConfig =
   | {
       text?: string;
-      variant: 'h1' | 'h2' | 'h3';
+      variant?: 'h1' | 'h2' | 'h3';
       align?: 'inherit' | 'justify' | 'center' | 'left' | 'right';
     }
   | undefined;
@@ -12,7 +12,7 @@ type TitleConfig =
 type SubtitleConfig =
   | {
       text?: string;
-      variant: 'h2' | 'h3' | 'h4';
+      variant?: 'h2' | 'h3' | 'h4';
       align?: 'inherit' | 'justify' | 'center' | 'left' | 'right';
     }
   | undefined;
@@ -48,7 +48,9 @@ const defaultProps: IProps = {
 };
 
 const TitleComponent = (titleConfig: TitleConfig) => {
-  if (!titleConfig) { return null; }
+  if (!titleConfig) {
+    return null;
+  }
   return (
     <Typography align={titleConfig.align} variant={titleConfig.variant}>
       {titleConfig.text}
@@ -57,7 +59,9 @@ const TitleComponent = (titleConfig: TitleConfig) => {
 };
 
 const SubtitleComponent = (subtitleConfig: SubtitleConfig) => {
-  if (!subtitleConfig) { return null; }
+  if (!subtitleConfig) {
+    return null;
+  }
   return (
     <Typography align={subtitleConfig.align} variant={subtitleConfig.variant}>
       {subtitleConfig.text}
