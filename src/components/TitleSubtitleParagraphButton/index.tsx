@@ -1,85 +1,93 @@
 import React, { FunctionComponent, ReactNode } from 'react';
 import { Grid, Typography } from '@material-ui/core';
 
-type subtitleVarient = 'h2' | 'h3' | 'h4';
+type TitleConfig =
+  | {
+      text?: string;
+      variant?: 'h1' | 'h2' | 'h3';
+      align?: 'inherit' | 'justify' | 'center' | 'left' | 'right';
+    }
+  | undefined;
 
-type alignTypo = 'inherit' | 'justify' | 'center' | 'left' | 'right';
+type SubtitleConfig =
+  | {
+      text?: string;
+      variant?: 'h2' | 'h3' | 'h4';
+      align?: 'inherit' | 'justify' | 'center' | 'left' | 'right';
+    }
+  | undefined;
+
 interface IProps {
-  titleText?: string;
-  subtitleText?: string;
+  titleConfig?: TitleConfig;
+  subtitleConfig?: SubtitleConfig;
   paragraphTexts?: string[];
   buttonComponent?: ReactNode;
   spacing?: 0 | 8 | 16 | 24 | 32 | 40;
   textAlign?: 'center' | 'right' | 'left';
   buttonAlign?: 'center' | 'stretch' | 'flex-start' | 'flex-end' | 'baseline';
-  titleConfig?: {
-    variant: any;
-    align?: any;
-  };
-  subtitleConfig?: {
-    variant: subtitleVarient;
-    align?: alignTypo;
-  };
 }
 
 /**
  * TitleSubtitleParagraphButton
  */
 
-const defaultProps = {
-  spacing: 8,
-  textAlign: 'left',
-  buttonAlign: 'center',
+const defaultProps: IProps = {
   titleConfig: {
+    text: '',
     variant: 'h1',
     align: 'left',
   },
   subtitleConfig: {
+    text: '',
     variant: 'h2',
     align: 'left',
   },
+  spacing: 8,
+  textAlign: 'left',
+  buttonAlign: 'center',
 };
 
-const TitleComp = (titleProps, titleText) => {
+const TitleComponent = (titleConfig: TitleConfig) => {
+  if (!titleConfig) {
+    return null;
+  }
   return (
-    <Typography align={titleProps.align} variant={titleProps.variant}>
-      {titleText}
+    <Typography align={titleConfig.align} variant={titleConfig.variant}>
+      {titleConfig.text}
     </Typography>
   );
 };
 
-const SubtitleComp = (subtitleProps, subtitleText) => {
+const SubtitleComponent = (subtitleConfig: SubtitleConfig) => {
+  if (!subtitleConfig) {
+    return null;
+  }
   return (
-    <Typography align={subtitleProps.align} variant={subtitleProps.variant}>
-      {subtitleText}
+    <Typography align={subtitleConfig.align} variant={subtitleConfig.variant}>
+      {subtitleConfig.text}
     </Typography>
   );
 };
 
 const TitleSubtitleParagraphButton: FunctionComponent<IProps> = ({
-  titleText,
+  titleConfig,
+  subtitleConfig,
   textAlign,
-  subtitleText,
   spacing,
   buttonAlign,
   paragraphTexts,
   buttonComponent,
-  titleConfig,
-  subtitleConfig,
 }: IProps) => {
-  const titleProps: any = titleConfig || defaultProps.titleConfig;
-  const subtitleProps: any = subtitleConfig || defaultProps.subtitleConfig;
-
   return (
     <>
       <Grid container direction="column" spacing={spacing}>
         <Grid item>
           {/* Title */}
-          {TitleComp(titleProps, titleText)}
+          {TitleComponent(titleConfig || defaultProps.titleConfig)}
         </Grid>
         <Grid item>
           {/* Subtitle */}
-          {SubtitleComp(subtitleProps, subtitleText)}
+          {SubtitleComponent(subtitleConfig || defaultProps.subtitleConfig)}
         </Grid>
         <Grid item>
           {/* Paragraphs */}
