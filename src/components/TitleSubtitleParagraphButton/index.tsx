@@ -1,8 +1,6 @@
 import React, { FunctionComponent, ReactNode } from 'react';
 import { Grid, Typography } from '@material-ui/core';
 
-type subtitleVarient = 'h2' | 'h3' | 'h4';
-
 type alignTypo = 'inherit' | 'justify' | 'center' | 'left' | 'right';
 interface IProps {
   titleText?: string;
@@ -17,7 +15,7 @@ interface IProps {
     align?: any;
   };
   subtitleConfig?: {
-    variant: subtitleVarient;
+    variant: any;
     align?: alignTypo;
   };
 }
