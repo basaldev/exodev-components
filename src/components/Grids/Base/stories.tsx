@@ -14,19 +14,10 @@ const stories = storiesOf('ContentPatterns', module);
 stories.add('PageExample', () => (
   <MuiThemeProvider theme={theme}>
     <PageHeader
+      widthOutOf12={6}
       titleText="Building Exponential Organizations"
       subtitleText="The Global ExO Transformation Ecosystem"
       backgroundImage="https://static1.squarespace.com/static/5b33ad559772aedf7cd44bf7/t/5b4632b5758d46638034d03b/1531327177163/00+Header-Bg.jpg?format=2500w"
-    />
-    <RowLayout1Centered
-      widthOutOf12={8}
-      middleComponent={
-        <TitleSubtitleParagraphButton
-          spacing={24}
-          titleConfig={{ text: 'Building Exponential Organizations' }}
-          subtitleConfig={{ text: 'The Global ExO Transformation Ecosystem' }}
-        />
-      }
     />
     <RowLayout1Centered
       widthOutOf12={8}
