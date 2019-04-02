@@ -67,7 +67,12 @@ const Header: FunctionComponent<IProps> = (props: IProps) => {
         <Toolbar>
           <div className={classes.logo}>
             <a href={logo.href}>
-              <img width={logo.width} src={logo.src} />
+              <img
+                width={logo.width}
+                src={logo.src}
+                alt={logo.alt}
+                title={logo.alt}
+              />
             </a>
           </div>
           <Hidden smDown>
@@ -98,7 +103,11 @@ const Header: FunctionComponent<IProps> = (props: IProps) => {
           </Hidden>
         </Toolbar>
       </AppBar>
-      <Drawer open={state.drawerOpen} classes={{ paper: classes.drawer }}>
+      <Drawer
+        open={state.drawerOpen}
+        anchor="right"
+        classes={{ paper: classes.drawer }}
+      >
         <div className={classes.drawerHeader}>
           <IconButton color="default" aria-label="Menu" onClick={cloaseDrawer}>
             <CloseIcon />
